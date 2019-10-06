@@ -62,12 +62,12 @@ ggplot(crime_evolution, aes(years, larceny_evolution)) +
   geom_point()+
   ggtitle("Larceny crime evolution through the years")
 
-ggplot(crime_evolution, aes(years, drug_evolution, col = years)) +
+ggplot(crime_evolution, aes(years, drug_evolution)) +
   geom_line()+
   geom_point()+
   ggtitle("Drug Violation crime evolution through the years")
 
-ggplot(crime_evolution, aes(years, homicide_evolution, col = years)) +
+ggplot(crime_evolution, aes(years, homicide_evolution)) +
   geom_line()+
   geom_point()+
   ggtitle("Homicide crime evolution through the years")
